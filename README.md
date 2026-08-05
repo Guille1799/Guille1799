@@ -40,10 +40,3 @@ Roles where data has to be **trustworthy to matter** — reliable systems, hones
 provenance without overselling causality. That spans **information integrity & accountability**,
 **evidence & impact**, and **behavioural insights**, in teams that publish their methods and
 welcome scrutiny. Fully mobile across the EU.
-
----
-
-**Pinned work:** [`eu-political-observatory`](https://github.com/Guille1799/eu-political-observatory) ·
-[`lebanon-geo-dashboard`](https://github.com/Guille1799/lebanon-geo-dashboard) ·
-[`World-Happiness-Report-Dashboard`](https://github.com/Guille1799/World-Happiness-Report-Dashboard) ·
-[`ryse-publico`](https://github.com/Guille1799/ryse-publico)
