@@ -1,7 +1,7 @@
 # Guillermo Martín de Oliva
 
-**Behavioural data scientist — I make data trustworthy, so a complex and opaque reality becomes
-legible for the people who actually have to act on it.**
+**Behavioural data scientist — I build data systems that show their work, so a complex and opaque
+reality becomes legible for the people who actually have to act on it.**
 
 What I care about isn't the model — it's whether the output can be *trusted*: does it cite its
 source, does it know how sure it is, and does it fail loudly instead of overselling. I work at the
