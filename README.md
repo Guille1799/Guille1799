@@ -1,11 +1,16 @@
 # Guillermo Martín de Oliva
 
-**Behavioural data scientist — I build reliable data & AI systems that make complex, opaque
-realities legible for the people who actually have to act on them.**
+**Behavioural data scientist — I make data trustworthy, so a complex and opaque reality becomes
+legible for the people who actually have to act on it.**
 
 What I care about isn't the model — it's whether the output can be *trusted*: does it cite its
 source, does it know how sure it is, and does it fail loudly instead of overselling. I work at the
-intersection of **behavioural science, rigorous measurement, and dependable data/AI engineering**.
+intersection of **behavioural science, rigorous measurement, and dependable data engineering**.
+
+*A note on AI, since everyone claims it:* in my projects the model is rarely more than a thin layer —
+deliberately. The deterministic engine decides; the model phrases. The work I actually do is the
+unglamorous part underneath: pipelines, measurement, provenance, and **evaluating** when a system is
+genuinely ready rather than good-on-average.
 
 I hold an MSc in **Behavioural Data Science** (IL3 – Universitat de Barcelona; Honours, 4th in
 cohort). Before specialising, I spent **nearly three years as a Business Analyst at Santander**, as the
@@ -17,8 +22,8 @@ last check before a rollout that would have miscalculated credit limits for thou
 - **Political-data observatory** — a reproducible pipeline that integrates independent European
   sources (economic, electoral, party-level) into one traceable dataset, reconciling entity IDs
   across them so provenance survives the integration. *(My main line of work.)*
-- **Retrieval systems you can trust** — a RAG system with its own **evaluation harness and a
-  deterministic regression gate** (it hard-fails if retrieval quality drops), so the system catches
+- **Retrieval systems you can trust** — a retrieval (RAG) system with its own **evaluation harness
+  and a deterministic regression gate** (it hard-fails if retrieval quality drops), so the system catches
   its own regressions instead of finding out in production. *(Private — happy to walk through it.)*
 - **Responsible AI in real apps** — **RunCoach AI**, an LLM-backed coaching app (FastAPI,
   PostgreSQL, Garmin/Strava, Groq/Llama), where a deterministic engine makes the decisions and the
