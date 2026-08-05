@@ -8,7 +8,7 @@ source, does it know how sure it is, and does it fail loudly instead of oversell
 intersection of **behavioural science, rigorous measurement, and dependable data/AI engineering**.
 
 I hold an MSc in **Behavioural Data Science** (IL3 – Universitat de Barcelona; Honours, 4th in
-cohort). Before specialising, I spent **2.5 years as a Business Analyst at Santander**, as the
+cohort). Before specialising, I spent **nearly three years as a Business Analyst at Santander**, as the
 pre-production QA owner for a global platform — where I learned institutional rigour by being the
 last check before a rollout that would have miscalculated credit limits for thousands of suppliers.
 
