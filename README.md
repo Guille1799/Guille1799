@@ -25,9 +25,9 @@ last check before a rollout that would have miscalculated credit limits for thou
 - **Retrieval systems you can trust** — a retrieval (RAG) system with its own **evaluation harness
   and a deterministic regression gate** (it hard-fails if retrieval quality drops), so the system catches
   its own regressions instead of finding out in production. *(Private — happy to walk through it.)*
-- **Responsible AI in real apps** — **RunCoach AI**, an LLM-backed coaching app (FastAPI,
-  PostgreSQL, Garmin/Strava, Groq/Llama), where a deterministic engine makes the decisions and the
-  LLM only phrases them. *(Private — available on request.)*
+- **Responsible AI in real apps** — an **endurance training and nutrition platform** built end-to-end
+  (FastAPI, PostgreSQL, Supabase, Garmin/Strava, ~2,400 automated tests), where a deterministic engine
+  makes every decision that matters and the model only phrases it. *(Private — available on request.)*
 - **Geospatial for decisions** — a dashboard built for a **UN ESCWA** assignment over Lebanon
   (Leaflet.js, 1,611 ADM3 localities), with a rule-based demographic classifier and prompt-level
   defenses so answers stay grounded in the data.
