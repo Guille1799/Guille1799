@@ -12,7 +12,7 @@ deliberately. The deterministic engine decides; the model phrases. The work I ac
 unglamorous part underneath: pipelines, measurement, provenance, and **evaluating** when a system is
 genuinely ready rather than good-on-average.
 
-I hold an MSc in **Behavioural Data Science** (IL3 – Universitat de Barcelona; Honours, 4th in
+I hold a postgraduate Master's in **Behavioural Data Science** (IL3 – Universitat de Barcelona; Honours, 4th in
 cohort). Before specialising, I spent **nearly three years as a Business Analyst at Santander**, as the
 pre-production QA owner for a global platform — where I learned institutional rigour by being the
 last check before a rollout that would have miscalculated credit limits for thousands of suppliers.
