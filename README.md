@@ -19,9 +19,12 @@ last check before a rollout that would have miscalculated credit limits for thou
 
 ### What I build
 
-- **Political-data observatory** — a reproducible pipeline that integrates independent European
-  sources (economic, electoral, party-level) into one traceable dataset, reconciling entity IDs
-  across them so provenance survives the integration. *(My main line of work.)*
+- **Political-data observatory** — where has the vote for **Vox** *grown* in Spain between
+  elections, and **does the answer change with the territorial scale you measure at**? Official
+  Ministry of the Interior results, published down to **polling-station** level, tested across four
+  levels: polling station → municipality → province → autonomous community. An earlier
+  cross-country design was executed, found not viable with its sources, and retired — documented
+  rather than hidden. *(My main line of work.)*
 - **Retrieval systems you can trust** — a retrieval (RAG) system with its own **evaluation harness
   and a deterministic regression gate** (it hard-fails if retrieval quality drops), so the system catches
   its own regressions instead of finding out in production. *(Private — happy to walk through it.)*
