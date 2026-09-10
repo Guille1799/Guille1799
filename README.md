@@ -8,7 +8,8 @@ source, does it know how sure it is, and does it fail loudly instead of oversell
 intersection of **behavioural science, rigorous measurement, and dependable data engineering**.
 
 *A note on AI, since everyone claims it:* in my projects the model is rarely more than a thin layer —
-deliberately. The deterministic engine decides; the model phrases. The work I actually do is the
+deliberately. Every decision and every alert is computed by deterministic code; the model handles
+background memory and summarisation. The work I actually do is the
 unglamorous part underneath: pipelines, measurement, provenance, and **evaluating** when a system is
 genuinely ready rather than good-on-average.
 
@@ -25,14 +26,21 @@ last check before a rollout that would have miscalculated credit limits for thou
   levels: polling station → municipality → province → autonomous community. An earlier
   cross-country design was executed, found not viable with its sources, and retired — documented
   rather than hidden. *(My main line of work.)*
+- **Acceptance infrastructure for AI agents** — AI agents write code in my projects overnight,
+  unattended. Every task carries the command that decides whether it is done, and an agent cannot
+  commit until that command passes. **More than 160 automated checkers** across four of my systems,
+  and the harness breaks its own checkers on purpose to find the ones that fail to notice.
+  "Could not measure" is a verdict of its own, never counted as a pass.
+  *(Private — happy to walk through it.)*
 - **Retrieval systems you can trust** — a retrieval (RAG) system with its own **evaluation harness
   and a deterministic regression gate** (it hard-fails if retrieval quality drops), so the system catches
   its own regressions instead of finding out in production. *(Private — happy to walk through it.)*
 - **Responsible AI in real apps** — an **endurance training and nutrition platform** built end-to-end
-  (FastAPI, PostgreSQL, Supabase, Garmin/Strava, ~2,400 automated tests), where a deterministic engine
-  makes every decision that matters and the model only phrases it. *(Private — available on request.)*
+  (FastAPI, PostgreSQL, Supabase, Garmin/Strava, **over 2,500 automated tests**). Every decision and
+  every alert that matters is computed by deterministic code. The model does background memory and
+  summarisation, and nothing that decides anything. *(Private — available on request.)*
 - **Geospatial for decisions** — a dashboard built for a **UN ESCWA** assignment over Lebanon
-  (Leaflet.js, 1,611 ADM3 localities), with a rule-based demographic classifier and prompt-level
+  (Leaflet.js, **1,545 ADM3 localities**), with a rule-based demographic classifier and prompt-level
   defenses so answers stay grounded in the data.
 - **Making data legible** — end-to-end analytics for **Project RYSE** in R (clustering, Random
   Forest, XGBoost, GLM, ETL), surfacing a *decision* gap rather than a skill one; and a
