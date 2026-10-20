@@ -1,3 +1,4 @@
+<!-- Status: finished (GitHub profile; reviewed 2026-10-20). -->
 # Guillermo Martín de Oliva
 
 **Behavioural data scientist — I build data systems that show their work, so a complex and opaque
