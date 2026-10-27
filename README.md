@@ -15,18 +15,24 @@ unglamorous part underneath: pipelines, measurement, provenance, and **evaluatin
 genuinely ready rather than good-on-average.
 
 I hold a postgraduate Master's in **Behavioural Data Science** (IL3 – Universitat de Barcelona, 9.17/10).
-Before specialising, I spent **nearly three years as a Business Analyst** on Santander's Confirming
-platform, as the pre-production QA owner — where I learned institutional rigour by being the
-last check before a rollout that would have miscalculated credit limits for thousands of suppliers.
+Before specialising, I spent **almost three years in pre-production QA** on Santander's Confirming
+platform, checking credit-limit calculations against production data in SQL — where I learned
+institutional rigour. One of those checks caught a tax-configuration defect that would have
+miscalculated credit limits across markets.
 
 ### What I build
 
+- **Figures checker** — checks figures quoted in Spanish parliamentary debates against official
+  statistics. It picks out the sentences that contain a figure, looks each one up in the statistics
+  office's (INE) API and stores the answer with its date. Code decides the verdict, not a language
+  model. Built with a mentor; it runs end to end on my machine. *(In development and private for now —
+  happy to walk through it. I will link it here when it is published.)* *(My main line of work.)*
 - **Political-data observatory** — where has the vote for **Vox** *grown* in Spain between
   elections, and **does the answer change with the territorial scale you measure at**? Official
   Ministry of the Interior results, published down to **polling-station** level, tested across four
   levels: polling station → municipality → province → autonomous community. An earlier
   cross-country design was executed, found not viable with its sources, and retired — documented
-  rather than hidden. *(My main line of work.)*
+  rather than hidden.
 - **Acceptance infrastructure for AI agents** — AI agents write code in some of my projects on a schedule,
   unattended. Every task carries the command that decides whether it is done, and an agent cannot
   commit until that command passes. **More than 160 automated checkers** across four of my systems,
