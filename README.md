@@ -27,7 +27,7 @@ last check before a rollout that would have miscalculated credit limits for thou
   levels: polling station → municipality → province → autonomous community. An earlier
   cross-country design was executed, found not viable with its sources, and retired — documented
   rather than hidden. *(My main line of work.)*
-- **Acceptance infrastructure for AI agents** — AI agents write code in my projects overnight,
+- **Acceptance infrastructure for AI agents** — AI agents write code in some of my projects on a schedule,
   unattended. Every task carries the command that decides whether it is done, and an agent cannot
   commit until that command passes. **More than 160 automated checkers** across four of my systems,
   and the harness breaks its own checkers on purpose to find the ones that fail to notice.
