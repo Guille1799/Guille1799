@@ -23,10 +23,11 @@ miscalculated credit limits across markets.
 ### What I build
 
 - **Figures checker** — checks figures quoted in Spanish parliamentary debates against official
-  statistics. It picks out the sentences that contain a figure, looks each one up in the statistics
-  office's (INE) API and stores the answer with its date. Code decides the verdict, not a language
-  model. Built with a mentor; it runs end to end on my machine. *(In development and private for now —
-  happy to walk through it. I will link it here when it is published.)* *(My main line of work.)*
+  statistics. A language model reads each sentence and turns it into a structured claim; code, not the
+  model, finds the numbers, looks each one up in the statistics office's (INE) API, stores the answer
+  as received and gives the verdict. It has a web interface with human review, a public API and a
+  read-only MCP server for AI assistants. Built with a mentor. *(The code is private; the live product is
+  coming and I will link it here.)* *(My main line of work.)*
 - **Political-data observatory** — where has the vote for **Vox** *grown* in Spain between
   elections, and **does the answer change with the territorial scale you measure at**? Official
   Ministry of the Interior results, published down to **polling-station** level, tested across four
